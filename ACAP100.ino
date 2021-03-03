@@ -1004,7 +1004,7 @@ void BadgeFromSDtoLocal()
     indice++;
   }
 
-  tabellaBadgelength = (indice) / 6;
+  tabellaBadgelength = (indice / 6)+1;
   field = 6;
 
   DPRINT("tabellaBadgelength= ");
