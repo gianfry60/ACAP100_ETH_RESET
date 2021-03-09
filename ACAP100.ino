@@ -198,8 +198,8 @@ bool DBConnected = false;
 int dnsReturn = 0;
 char hostname[STRING_LEN];
 int server_port = 3306;
-char user[] = "ACAP100";          // MySQL user login username
-char password[] = "CA$area@2020"; // MySQL user login password
+char user[] = "********";          // MySQL user login username
+char password[] = "*********";     // MySQL user login password
 String tabellacodici[3300];       /* table of codes of valid cards max 550 badges */
 String tabellaDesProfili[400];    /* valid card profile table  */
 String tabellaDesTime[400];       /* table of time slots of valid cards  */
@@ -4168,7 +4168,7 @@ void setup()
     {
       DPRINTLN("DB Host Ip not resolved");
       DPRINTLN("set default");
-      server_ip.fromString("109.168.40.35");
+      server_ip.fromString("***.***.***.***");
       config.DBPortParam = 3306;
       if (config.Log == 1)
       {
