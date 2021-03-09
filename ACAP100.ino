@@ -247,7 +247,7 @@ MySQL_Connection conn((Client *)&client);
 
 #endif
 
-IPAddress server_ip; //(109, 168, 40, 35);
+IPAddress server_ip; 
 
 //************************************************
 // json file structure of configuration variables
